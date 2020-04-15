@@ -11,3 +11,9 @@ const pics = {
   doggy: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_photo-puppy.jpeg'
 };
 let img;
+
+if (coinToss() === 'heads') {
+    img = (<img src={pics.kitty} />);
+} else {
+    img = (<img src={pics.doggy} />);
+}
