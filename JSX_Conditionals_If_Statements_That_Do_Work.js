@@ -17,3 +17,4 @@ if (coinToss() === 'heads') {
 } else {
     img = (<img src={pics.doggy} />);
 }
+ReactDOM.render(img, document.getElementById('app'));
